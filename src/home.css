@@ -74,12 +74,17 @@
   font-family: roboto;
   font-weight: 600;
   text-indent: 20px;
+  padding-Right: 14%;
+
 }
 
 .customizeSearchMob::placeholder
 {
     color: black;
     font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .customizeSearch
@@ -97,6 +102,7 @@
   font-family: roboto;
   font-weight: 600;
   text-indent: 20px;
+  padding-Right: 10%;
 }
 
 .icon
@@ -305,16 +311,31 @@
 }
 
 
-.footer
+.bottomfooter
 {
     margin-top: 40px;
     display: flex;
     background-color: white;
     width: 100%;
+    padding-top:20px
+}
+
+.bottomfooterMob
+{
+    margin-top: 40px;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding-top:20px
 }
 .footerchild1
 {
     width: 70%;
+    display: flex;
+}
+.footerchild1Mob
+{
+    width: 100%;
     display: flex;
 }
 
@@ -326,18 +347,42 @@
 .footerLinks
 {
   list-style-type: none;
-  padding: 10px;
+  padding: 15px;
   font-weight: 600;
+  font-size: 16px;
+}
+.footerLinksMob
+{
+  list-style-type: none;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.FollowLinks
+{
+  
+  padding-top: 10px;
+    font-weight: 600;
   font-size: 16px;
 }
 
 .footerLinks1
 {
   list-style-type: none;
-  padding: 10px;
+  padding: 15px;
   padding-Top: 1px;
   font-size: 12px;
   color: gray;
   font-weight: 600;
+
+}
+
+.footerLinks1Mob
+{
+  list-style-type: none;
+  padding-Top: 10px;
+  font-size: 10px;
+  color: gray;
+  font-weight: 500;
 
 }

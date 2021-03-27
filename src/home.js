@@ -25,7 +25,7 @@ export default function Home() {
     return (
         <div>
             { isDesktopOrLaptop &&
-                <div className='container'>
+                <div>
                     <Nav />
                     <Itemheader />
 

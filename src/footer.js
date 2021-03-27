@@ -5,7 +5,8 @@ import twitter from './twitter.png';
 
 export default function Footer() {
     return (
-        <div className='footer'>
+        <div className='bottomfooter'>
+
         <div className='footerchild1'>
             <div style={{ width: '25%' }}>
                 <ul>
@@ -62,15 +63,15 @@ export default function Footer() {
                 <ul>
                     <li className='footerLinks'>Follow Us</li>
                     <li className='footerLinks1'><div style={{ display: 'flex' }}>
-                        <div style={{ width: '25px', height: '25px', padding: '10px' }}>
-                            <img src={insta} style={{ width: '100%' }} />
+                        <div style={{ width: '35px', height: '25px', padding: '10px',paddingLeft:'0px' }}>
+                            <img src={insta} style={{ width: '25px', height: '25px' }} />
                         </div>
 
-                        <div style={{ width: '25px', height: '25px', padding: '10px' }}>
-                            <img src={twitter} style={{ width: '100%' }} />
+                        <div style={{ width: '35px', height: '25px', padding: '10px',paddingLeft:'0px' }}>
+                            <img src={twitter} style={{ width: '25px', height: '25px' }} />
                         </div>
-                        <div style={{ width: '25px', height: '25px', padding: '10px' }}>
-                            <img src={face} style={{ width: '100%' }} />
+                        <div style={{ width: '35px', height: '25px', padding: '10px',paddingLeft:'0px' }}>
+                            <img src={face} style={{ width: '25px', height: '25px' }} />
                         </div>
                     </div></li>
 
