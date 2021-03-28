@@ -3,7 +3,7 @@
 body
 {
   font-family: roboto;
-  background-color: #e0e0e0;
+  background-color: #F1F3F6;
 }
 
 .items {
@@ -120,3 +120,4 @@ blockquote cite:before {
 .reviews::-webkit-scrollbar {
   display: none;
 }
+

@@ -32,7 +32,7 @@ export default function SearchContent() {
                         <div style={{ fontSize: '14px', color: 'black', fontWeight: '600', padding: '3px' }}>110,486 Results</div>
                         <div style={{ fontSize: '14px', color: 'black', fontWeight: '600', padding: '3px', paddingLeft: '15px' }}>iphone</div>
                     </div>
-                    <div style={{ display: 'flex', width: '50%', marginTop: '10px' }}>
+                    <div style={{ display: 'flex', width: '65%', marginTop: '10px' }}>
                         <div style={{ padding: '3px', fontSize: '14px', width: '25%', background: '#d50000', color: 'white', border: '1px solid #e0e0e0', textAlign: 'center' }}><div style={{ margin: 'auto' }}>All Listing</div></div>
                         <div style={{ padding: '3px', fontSize: '14px', width: '25%', background: 'white', color: 'black', border: '1px solid #e0e0e0', textAlign: 'center' }}><div style={{ margin: 'auto' }}>Certified</div></div>
                         <div style={{ padding: '3px', fontSize: '14px', width: '25%', background: 'white', color: 'black', border: '1px solid #e0e0e0', textAlign: 'center' }}><div style={{ margin: 'auto' }}>Auctio</div></div>

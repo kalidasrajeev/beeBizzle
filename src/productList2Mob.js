@@ -3,7 +3,7 @@ import preview from './preview.jpeg';
 
 export default function ProductListMob() {
     return (
-        <div style={{ marginTop: '5px' }}>
+        <div style={{ marginTop: '8px' }}>
             <div style={{ background: 'white', padding: '15px' }}>
                 <div style={{ fontWeight: '500' }}>iPhone Lovers<span style={{ float: 'right' }}>View All</span></div>
             </div>

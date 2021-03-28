@@ -81,19 +81,7 @@ export default function FilterBar() {
                             />
                         </ThemeProvider>
                     </div>
-                    <div style={{ width: '100%', padding: '10px', paddingTop: '0px', display: 'flex', fontSize: '16px', color: 'grey' }}>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                        <div style={{ width: '10%' }}>&#183;</div>
-                    </div>
-                    <div style={{ width: '100%', display: 'flex' }}>
+                    <div style={{ width: '100%', display: 'flex',paddingLeft:'10px'}}>
                         <div style={{ width: '40%' }}>
                             <input className='inputrange' type='text' value={'AED '+value[0]*80} />
                         </div>

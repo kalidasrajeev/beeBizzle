@@ -6,39 +6,45 @@ import image4 from './img-3.jpeg';
 import image5 from './img-5.jpeg';
 import cert from './cert.png';
 import guaran from './guaran.png';
+import cable from './cable.png';
+import care from './care.png';
+
 export default function ProductBody() {
     const [images, setImage] = useState(image2)
     const handleImage = (value) => {
         setImage(value)
     }
     return (
-        
-            <div style={{ width: "100%", marginTop: '20px' }}>
-                <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
-                        <div style={{ background: 'white', height: '100%', display: 'flex' }}>
-                            <div style={{ position: 'relative', width: '40%', height: '100%' }}>
-                                <div style={{ margin: '20px', marginLeft: '80px', width: '400px', height: '400px', border: '1px solid #e0e0e0' }}><img src={images} style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} /></div>
-                                <div style={{ position: 'absolute', top: '30px', right: '30px', background: 'red', color: 'white', padding: '2px', fontSize: '12px' }}>20% OFF</div>
-                                <div style={{ margin: '20px', marginLeft: '80px', width: '400px', height: '400px', display: 'flex' }}>
-                                    <div><div onClick={() => handleImage(image3)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image3} /></div></div>
-                                    <div><div onClick={() => handleImage(image1)} ><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image1} /></div></div>
-                                    <div><div onClick={() => handleImage(image5)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image5} /></div></div>
-                                    <div><div onClick={() => handleImage(image4)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image4} /></div></div>
-                                    <div><div onClick={() => handleImage(image3)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image3} /></div></div>
-                                </div>
+
+        <div style={{ width: "100%", marginTop: '20px' }}>
+            <div style={{ width: '100%', height: '100%' }}>
+                <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ background: 'white', height: '100%', display: 'flex' }}>
+                        <div style={{ position: 'relative', width: '40%', height: '100%' }}>
+                            <div style={{ padding: '20px' }}>
+                                <div style={{ width: '100%', border: '1px solid #e0e0e0', textAlign: 'center', padding: '10px' }}><img src={images} style={{ objectFit: 'contain' }} /></div>
                             </div>
+                            <div style={{ position: 'absolute', top: '30px', right: '30px', background: 'red', color: 'white', padding: '2px', fontSize: '12px' }}>20% OFF</div>
+                            <div style={{ padding: '20px', paddingTop: '0px', width: '100%', height: '100%', display: 'flex' }}>
+                                <div style={{ border: '1px solid #e0e0e0' }}><div onClick={() => handleImage(image3)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image3} /></div></div>
+                                <div style={{ border: '1px solid #e0e0e0' }}><div onClick={() => handleImage(image1)} ><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image1} /></div></div>
+                                <div style={{ border: '1px solid #e0e0e0' }}><div onClick={() => handleImage(image5)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image5} /></div></div>
+                                <div style={{ border: '1px solid #e0e0e0' }}><div onClick={() => handleImage(image4)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image4} /></div></div>
+                                <div style={{ border: '1px solid #e0e0e0' }}><div onClick={() => handleImage(image3)}><img style={{ padding: '10px', width: '100%', height: '100%', objectFit: 'contain' }} src={image3} /></div></div>
+                            </div>
+                        </div>
 
-                            <div style={{ position: 'relative', width: '60%', height: '100%' }}>
+                        <div style={{ position: 'relative', width: '60%', height: '100%' }}>
+                            <div style={{ width: '100%', display: 'flex' }}>
 
-                                <div style={{ width: '80%' }}>
+                                <div style={{ width: '75%' }}>
                                     <div style={{ width: '100%' }}>
                                         <div style={{ width: '100%', padding: '25px', paddingBottom: '0px' }}>
                                             <img src={cert} />
                                         </div>
                                         <div style={{ width: '100%', padding: '25px', paddingTop: '20px', fontWeight: '600' }}>
                                             Apple iPhone 11, 64 GB(Includes Earpods,Power Adapter)
-                                 <br /> <span style={{ fontWeight: '500', fontSize: '12px' }}>Minimally used. Negligible Scratches. Fully Functional</span>
+                                         <br /> <span style={{ fontWeight: '500', fontSize: '12px' }}>Minimally used. Negligible Scratches. Fully Functional</span>
                                         </div>
 
                                         <div style={{ width: '100%', padding: '25px', paddingTop: '0px', fontWeight: '600' }}>
@@ -92,92 +98,116 @@ export default function ProductBody() {
                                         <div style={{ display: 'flex', width: '100%', marginTop: '10px' }}>
                                             <div style={{ width: '33.3%', padding: '5px', paddingLeft: '0px' }}>
                                                 <div style={{ border: '1px solid #e0e0e0', padding: '10px' }}>
-                                                    <div><div style={{ fontSize: '12px', color: 'black', textAlign: 'center' }}>Charging Cable</div></div>
+                                                    <div><div style={{ fontSize: '12px', color: 'black', textAlign: 'center' }}>
+                                                        <img src={cable} />
+
+                                                        <div style={{ marginTop: '10px', fontSize: '12px', color: 'black', textAlign: 'center' }}>Charging Cable</div>
+                                                    </div></div>
                                                 </div>
                                             </div>
                                             <div style={{ width: '33.3%', padding: '5px', paddingLeft: '0px' }}>
                                                 <div style={{ border: '1px solid #e0e0e0', padding: '10px' }}>
-                                                    <div><div style={{ fontSize: '12px', color: 'black', textAlign: 'center' }}>Charging Cable</div></div>
+                                                    <div><div style={{ fontSize: '12px', color: 'black', textAlign: 'center' }}>
+                                                        <img src={cable} />
+
+                                                        <div style={{ marginTop: '10px', fontSize: '12px', color: 'black', textAlign: 'center' }}>Charging Cable</div>
+                                                    </div></div>
                                                 </div>
                                             </div>
                                             <div style={{ width: '33.3%', padding: '5px', paddingLeft: '0px' }}>
                                                 <div style={{ border: '1px solid #e0e0e0', padding: '10px' }}>
-                                                    <div><div style={{ fontSize: '12px', color: 'black', textAlign: 'center' }}>Charging Cable</div></div>
+                                                    <div><div style={{ fontSize: '12px', color: 'black', textAlign: 'center' }}>
+                                                        <img src={cable} />
+
+                                                        <div style={{ marginTop: '10px', fontSize: '12px', color: 'black', textAlign: 'center' }}>Charging Cable</div>
+                                                    </div></div>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <div style={{ width: '100%', padding: '25px', paddingTop: '0px' }}>
-                                    <div style={{ fontWeight: '700', color: 'black', fontSize: '18px', width: '100%' }}>Specifications</div>
-                                    <div style={{ width: '100%', border: '1px solid #e0e0e0' }}>
-                                        <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
-                                            <div style={{ width: '20%', fontSize: '14px' }}>
-                                                in The Box
-
-                                           </div>
-                                            <div style={{ width: '80%', fontSize: '14px' }}>
-                                                Handset, Earpods with Lighting Connector, Lighting to USB Cable
-                                           </div>
+                                <div style={{ width: '25%' }}>
+                                    <div style={{ padding: '25px', width: '100%', paddingLeft: '0px', display: 'flex' }}>
+                                        <div style={{ width: '20%' }}>
+                                            <img src={care} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                                         </div>
-                                        <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
-                                            <div style={{ width: '20%', fontSize: '14px' }}>
-                                                Model Number
-
-                                           </div>
-                                            <div style={{ width: '80%', fontSize: '14px' }}>
-                                                MWLLHUYA/A
-                                           </div>
-                                        </div>
-                                        <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
-                                            <div style={{ width: '20%', fontSize: '14px' }}>
-                                                Model Name
-
-                                           </div>
-                                            <div style={{ width: '80%', fontSize: '14px' }}>
-                                                iPhone 11
-                                           </div>
-                                        </div>
-                                        <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
-                                            <div style={{ width: '20%', fontSize: '14px' }}>
-                                                Color
-
-                                           </div>
-                                            <div style={{ width: '80%', fontSize: '14px' }}>
-                                                White
-                                           </div>
-                                        </div>
-                                        <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
-                                            <div style={{ width: '20%', fontSize: '14px' }}>
-                                                Browse Type
-
-                                           </div>
-                                            <div style={{ width: '80%', fontSize: '14px' }}>
-                                                Smartphones
-                                           </div>
-                                        </div>
-                                        <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
-                                            <div style={{ width: '20%', fontSize: '14px' }}>
-                                                Sim Type
-
-                                           </div>
-                                            <div style={{ width: '80%', fontSize: '14px' }}>
-                                                Dual Sim
-                                           </div>
+                                        <div style={{ width: '80%' }}>
+                                            <div style={{ fontWeight: '600', width: '100%', padding: '5px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '10px', fontWeight: '500', width: '100%' }}>Shop with an expert</button></div>
                                         </div>
 
                                     </div>
+                                </div>
+                            </div>
+
+                            <div style={{ width: '100%', padding: '25px', paddingTop: '0px' }}>
+                                <div style={{ fontWeight: '700', color: 'black', fontSize: '18px', width: '100%' }}>Specifications</div>
+                                <div style={{ width: '100%', border: '1px solid #e0e0e0' }}>
+                                    <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
+                                        <div style={{ width: '20%', fontSize: '14px' }}>
+                                            in The Box
+
+                                           </div>
+                                        <div style={{ width: '80%', fontSize: '14px' }}>
+                                            Handset, Earpods with Lighting Connector, Lighting to USB Cable
+                                           </div>
+                                    </div>
+                                    <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
+                                        <div style={{ width: '20%', fontSize: '14px' }}>
+                                            Model Number
+
+                                           </div>
+                                        <div style={{ width: '80%', fontSize: '14px' }}>
+                                            MWLLHUYA/A
+                                           </div>
+                                    </div>
+                                    <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
+                                        <div style={{ width: '20%', fontSize: '14px' }}>
+                                            Model Name
+
+                                           </div>
+                                        <div style={{ width: '80%', fontSize: '14px' }}>
+                                            iPhone 11
+                                           </div>
+                                    </div>
+                                    <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
+                                        <div style={{ width: '20%', fontSize: '14px' }}>
+                                            Color
+
+                                           </div>
+                                        <div style={{ width: '80%', fontSize: '14px' }}>
+                                            White
+                                           </div>
+                                    </div>
+                                    <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
+                                        <div style={{ width: '20%', fontSize: '14px' }}>
+                                            Browse Type
+
+                                           </div>
+                                        <div style={{ width: '80%', fontSize: '14px' }}>
+                                            Smartphones
+                                           </div>
+                                    </div>
+                                    <div style={{ width: '100%', display: 'flex', padding: '10px' }}>
+                                        <div style={{ width: '20%', fontSize: '14px' }}>
+                                            Sim Type
+
+                                           </div>
+                                        <div style={{ width: '80%', fontSize: '14px' }}>
+                                            Dual Sim
+                                           </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-           
-        
+
+
 
     )
 }

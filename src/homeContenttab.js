@@ -20,18 +20,12 @@ import applelogo from './applelogo.png'
 import huawei from './huawei.png';
 import samsung from './samsung1.png';
 import macbook from './macbook.png';
-import { useHistory } from 'react-router-dom';
-
-export default function HomeContent() {
-    const history = useHistory();
-    const handleProduct = () => {
-          history.push('/product');  
-    }
+export default function HomeContenttab() {
     return (
         <div>
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div className="containerImage">
                             <img src={bgHome} alt="Avatar" class="image" style={{ height: '100%', objectFit: 'cover' }} />
                             <div className="overlay"></div>
@@ -69,7 +63,7 @@ export default function HomeContent() {
 
             <div style={{ width: "100%", marginTop: '10px', height: '117px' }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%  ' }}>
                         <div style={{ background: 'white', height: '100%', display: 'flex' }}>
                             <div style={{ width: '25%', height: '100%', display: 'flex' }}>
                                 <div style={{ width: '40%' }}>
@@ -162,12 +156,12 @@ export default function HomeContent() {
 
             <div style={{ height: '181px', width: "100%", marginTop: '10px' }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ backgroundColor: 'white', height: '100%', width: '100%', display: 'flex' }}>
                             <div style={{ width: '8%' }}></div>
                             <div style={{ width: '12%' }}>
                                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <div style={{ width: '110px', height: '110px', alignSelf: 'center', padding: '10px' }}>
+                                    <div style={{ width: '90px', height: '90px', alignSelf: 'center', padding: '10px' }}>
                                         <div style={{ width: '100%', height: '100%', backgroundColor: '#e0e0e0', borderRadius: '50%', display: 'flex', justifyContent: 'center' }}>
                                             <img src={macbook} style={{ alignSelf: "center", objectFit: 'contain', height: '60%', width: '60%' }} />
                                         </div>
@@ -177,7 +171,7 @@ export default function HomeContent() {
                             </div>
                             <div style={{ width: '12%' }}>
                                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <div style={{ width: '110px', height: '110px', alignSelf: 'center', padding: '10px' }}>
+                                    <div style={{ width: '90px', height: '90px', alignSelf: 'center', padding: '10px' }}>
                                         <div style={{ width: '100%', height: '100%', backgroundColor: '#e0e0e0', borderRadius: '50%', display: 'flex', justifyContent: 'center' }}>
                                             <img src={macbook} style={{ alignSelf: "center", objectFit: 'contain', height: '60%', width: '60%' }} />
                                         </div>
@@ -187,7 +181,7 @@ export default function HomeContent() {
                             </div>
                             <div style={{ width: '12%' }}>
                                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <div style={{ width: '110px', height: '110px', alignSelf: 'center', padding: '10px' }}>
+                                    <div style={{ width: '90px', height: '90px', alignSelf: 'center', padding: '10px' }}>
                                         <div style={{ width: '100%', height: '100%', backgroundColor: '#e0e0e0', borderRadius: '50%', display: 'flex', justifyContent: 'center' }}>
                                             <img src={macbook} style={{ alignSelf: "center", objectFit: 'contain', height: '60%', width: '60%' }} />
                                         </div>
@@ -197,7 +191,7 @@ export default function HomeContent() {
                             </div>
                             <div style={{ width: '12%' }}>
                                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <div style={{ width: '110px', height: '110px', alignSelf: 'center', padding: '10px' }}>
+                                    <div style={{ width: '90px', height: '90px', alignSelf: 'center', padding: '10px' }}>
                                         <div style={{ width: '100%', height: '100%', backgroundColor: '#e0e0e0', borderRadius: '50%', display: 'flex', justifyContent: 'center' }}>
                                             <img src={macbook} style={{ alignSelf: "center", objectFit: 'contain', height: '60%', width: '60%' }} />
                                         </div>
@@ -207,7 +201,7 @@ export default function HomeContent() {
                             </div>
                             <div style={{ width: '12%' }}>
                                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <div style={{ width: '110px', height: '110px', alignSelf: 'center', padding: '10px' }}>
+                                    <div style={{ width: '90px', height: '90px', alignSelf: 'center', padding: '10px' }}>
                                         <div style={{ width: '100%', height: '100%', backgroundColor: '#e0e0e0', borderRadius: '50%', display: 'flex', justifyContent: 'center' }}>
                                             <img src={macbook} style={{ alignSelf: "center", objectFit: 'contain', height: '60%', width: '60%' }} />
                                         </div>
@@ -217,7 +211,7 @@ export default function HomeContent() {
                             </div>
                             <div style={{ width: '12%' }}>
                                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <div style={{ width: '110px', height: '110px', alignSelf: 'center', padding: '10px' }}>
+                                    <div style={{ width: '90px', height: '90px', alignSelf: 'center', padding: '10px' }}>
                                         <div style={{ width: '100%', height: '100%', backgroundColor: '#e0e0e0', borderRadius: '50%', display: 'flex', justifyContent: 'center' }}>
                                             <img src={macbook} style={{ alignSelf: "center", objectFit: 'contain', height: '60%', width: '60%' }} />
                                         </div>
@@ -227,7 +221,7 @@ export default function HomeContent() {
                             </div>
                             <div style={{ width: '12%' }}>
                                 <div style={{ height: '100%', width: '100%', display: 'flex', justifyContent: 'center' }}>
-                                    <div style={{ width: '110px', height: '110px', alignSelf: 'center', padding: '10px' }}>
+                                    <div style={{ width: '90px', height: '90px', alignSelf: 'center', padding: '10px' }}>
                                         <div style={{ width: '100%', height: '100%', backgroundColor: '#e0e0e0', borderRadius: '50%', display: 'flex', justifyContent: 'center' }}>
                                             <img src={macbook} style={{ alignSelf: "center", objectFit: 'contain', height: '60%', width: '60%' }} />
                                         </div>
@@ -244,9 +238,9 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ background: 'white', padding: '15px' }}>
-                            <div style={{ fontWeight: '500' }}>Deals of the Day<span style={{ float: 'right' }} onClick={handleProduct}>View All</span></div>
+                            <div style={{ fontWeight: '500' }}>Deals of the Day<span style={{ float: 'right' }}>View All</span></div>
                         </div>
 
                         <div style={{ height: '1px', background: '#e0e0e0' }}>
@@ -337,7 +331,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ width: '100%', display: 'flex' }}>
 
                             <div style={{ width: '33.3%' }}>
@@ -351,7 +345,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>For Students</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>For Students</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600' }}>Shop Now</button></div>
                                             </div>
@@ -372,7 +366,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>For Students</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>For Students</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600' }}>Shop Now</button></div>
                                             </div>
@@ -393,7 +387,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>For Students</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>For Students</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600' }}>Shop Now</button></div>
                                             </div>
@@ -414,7 +408,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ background: 'white', padding: '15px' }}>
                             <div style={{ fontWeight: '500' }}>For iPhone Lovers<span style={{ float: 'right' }}>View All</span></div>
                         </div>
@@ -492,24 +486,24 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%", height: '77px' }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', width: '100%', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', width: '100%', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ background: '#3554F6', backgroundImage: `url(${rectangle})`, height: '77px' }}>
                             <div style={{ display: 'flex' }}>
                                 <div style={{ width: '4%' }}></div>
                                 <div style={{ width: '30%' }}>
-                                    <div style={{ marginTop: '30px', color: 'white', fontWeight: '600' }}>Safe Convenient shopping from home</div>
+                                    <div style={{ marginTop: '30px', color: 'white', fontWeight: '600',fontSize:'12px' }}>Safe Convenient shopping from home</div>
                                 </div>
-                                <div style={{ width: '20%' }}>
+                                <div style={{ width: '15%' }}>
 
                                 </div>
 
-                                <div style={{ width: '40%', height: '77px' }}>
+                                <div style={{ width: '50%', height: '77px' }}>
                                     <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                         <div style={{ alignSelf: 'center', width: '10%', height: '100%' }}>
                                             <img src={care} style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                                         </div>
                                         <div style={{ alignSelf: 'center', width: '90%', display: 'flex' }}>
-                                            <div style={{ fontWeight: '600', marginLeft: '10px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600' }}>Shop with an Expert</button></div>
+                                            <div style={{ fontWeight: '600', marginLeft: '10px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '11px', fontWeight: '600' }}>Shop with an Expert</button></div>
                                             <div style={{ marginLeft: '12px', color: 'white', fontWeight: '600', marginTop: '4px' }}> or Call 7012157764</div>
                                         </div>
 
@@ -530,7 +524,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ width: '100%', display: 'flex', flexWrap: 'wrap' }}>
                             <div style={{ width: '33.3%' }}>
                                 <div style={{ margin: '3%', marginLeft: '0px' }}>
@@ -547,7 +541,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -572,7 +566,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -597,7 +591,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -623,7 +617,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -648,7 +642,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -673,7 +667,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -698,7 +692,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -723,7 +717,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -748,7 +742,7 @@ export default function HomeContent() {
                                         </div>
                                         <div style={{ width: '60%', height: '100%', display: 'flex', justifyContent: 'center' }}>
                                             <div style={{ alignSelf: 'center', width: '80%', objectFit: 'contain' }}>
-                                                <div style={{ fontWeight: '600', fontSize: '20px' }}>Gift Gallery</div>
+                                                <div style={{ fontWeight: '600', fontSize: '16px' }}>Gift Gallery</div>
                                                 <div style={{ fontSize: '13px', marginTop: '2px' }}>1400+ products</div>
                                                 <div style={{ fontWeight: '600', marginTop: '8px' }}><button type="button" class="btn btn-warning" style={{ fontSize: '14px', fontWeight: '600', width: '90%' }}>Shop Now</button></div>
                                             </div>
@@ -769,7 +763,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ background: 'white', padding: '15px' }}>
                             <div style={{ fontWeight: '500' }}>For iPhone Lovers<span style={{ float: 'right' }}>View All</span></div>
                         </div>
@@ -848,7 +842,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', width: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', width: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ display: 'flex', paddingTop: '10px', paddingBottom: '10px', width: '100%', backgroundColor: '#FFBA05', height: '140px' }}>
 
                             <div style={{ width: '30%', marginRight: '0', display: 'flex', justifyContent: 'center' }}>
@@ -857,8 +851,8 @@ export default function HomeContent() {
 
                             <div style={{ width: '30%', display: 'flex', justifyContent: 'center' }}>
                                 <div style={{ alignSelf: 'center', width: '100%', textAlign: 'Left', marginLeft: "20%" }}>
-                                    <div style={{ fontSize: '20px', fontWeight: 'bold' }}>Phone everyone wants</div>
-                                    <div style={{ fontSize: '14px' }}>Apple samsung oneplus</div>
+                                    <div style={{ fontSize: '16px', fontWeight: 'bold' }}>Phone everyone wants</div>
+                                    <div style={{ fontSize: '12px' }}>Apple samsung oneplus</div>
                                     <img src={cert} style={{ marginTop: '10px' }} />
                                 </div>
                             </div>
@@ -873,7 +867,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ background: 'white', padding: '15px' }}>
                             <div style={{ fontWeight: '500' }}>For iPhone Lovers<span style={{ float: 'right' }}>View All</span></div>
                         </div>
@@ -951,7 +945,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ background: 'white', padding: '15px' }}>
                             <div style={{ fontWeight: '500' }}>For iPhone Lovers<span style={{ float: 'right' }}>View All</span></div>
                         </div>
@@ -1031,7 +1025,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ display: 'flex', width: '100%', height: "100%", borderRadius: '4px', }}>
 
 
@@ -1066,7 +1060,7 @@ export default function HomeContent() {
 
             <div style={{ marginTop: '20px', width: "100%" }}>
                 <div style={{ width: '100%', height: '100%' }}>
-                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '50px', paddingRight: '50px' }}>
+                    <div style={{ height: '100%', margin: 'auto', paddingLeft: '4%', paddingRight: '4%' }}>
                         <div style={{ display: 'flex', flexWrap: 'wrap', width: '100%', height: "100%", backgroundColor: "#FFFFFF", }}>
                             <div style={{ width: '16.6%', height: '119px', border: 'none' }}>
                                 <div style={{ width: '100%', height: '100%', border: 'none', position: 'relative', paddingTop: '20px' }} >
